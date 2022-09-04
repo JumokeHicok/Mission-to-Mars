@@ -79,7 +79,7 @@ def featured_image(browser):
     # Use the base URL to create an absolute URL
     img_url = f'https://spaceimages-mars.com/{img_url_rel}'
 
-    return imp_url
+    return img_url
 
 ### Mars Facts
 def mars_facts():
